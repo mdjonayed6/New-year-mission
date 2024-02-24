@@ -1,3 +1,87 @@
-h2{
+/* Common Style */
+*{
+    margin: 0;
+    padding: 0;
+}
+    
+#hero-section {
+    margin: 40px 50px;
+
+
+.hero-banner{
+    background: linear-gradient(80deg, rgba(9, 7, 16, 0.403), rgba(22, 10, 36, 0.7)) ,url('/images/BannerImage.png');
+    height: 90vh;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+}
+.banner-content{
+    color: white; 
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.offer-section{
+    margin: 40px;
+}
+.offer-content{
+    text-align: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.offer-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.offer-tagline{
+    font-size: 50px;
     color: red;
+    margin-bottom: 20px;
+}
+.offer-slogan{
+    color: red;
+}
+.offer-categories{
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 5px;
+}
+
+.party{
+    background: linear-gradient(to left, rgba(255,255,255,0) 0%,rgba(26, 10, 10, 0.992) 100%), url('/images/Vectorrr.png');
+    opacity: 1;
+    height: 80vh;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    display: flex;
+    margin: 50px 60px;
+    background-size: cover;
+    justify-content: space-around;
+    
+}
+.party-container{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+.party-content{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.party-content h2{
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.btn{
+    background-color: rgba(71, 12, 12, 0.155);
+    border-radius: 20px;
+    padding: 13px;
+    color: white;
+    margin: 15px auto 20px;
 }
