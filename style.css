@@ -79,8 +79,31 @@
     font-size: 40px;
 }
 .btn{
-    background-color: rgba(71, 12, 12, 0.155);
+    background-color: rgba(124, 118, 118, 0.155);
     border-radius: 20px;
+    padding: 13px;
+    color: white;
+    margin: 15px auto 20px;
+}
+
+.addressOfParty{
+    background-color: rgba(233, 150, 122, 0.189);
+    height: 40vh;
+    width: 91%;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    justify-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .party-btn{
+    background-color: rgba(243, 7, 7, 0.89);
+    border: 0;
+    width: 100px;
+    border-radius: 10px;
     padding: 13px;
     color: white;
     margin: 15px auto 20px;
