@@ -129,3 +129,13 @@
 .rightText{
     width: 50%;
 }
+
+.party-btn2{
+    background-color: rgba(255, 255, 255, 0.89);
+    border: 0;
+    width: 300px;
+    border-radius: 20px;
+    padding: 13px;
+    color: white;
+    margin: 15px auto 20px;
+}
