@@ -86,6 +86,48 @@
     margin: 15px auto 20px;
 }
 
+/* Holyday special offer  */
+/* .holyday-sell{
+    width: 91%;
+    align-items: center;
+    position: relative;
+    margin: 0 auto;
+} */
+.sell-text{
+    text-align: center;
+}
+.discount-images{
+    display: flex;
+    width: 91%;
+    align-items: center;
+    justify-content: center;
+}
+.giftbox{
+    width: 70%;
+    position: relative;
+
+}
+.discount-img{
+    width: 10%;
+    position: relative;
+}
+.customer{
+    width: 30%;
+    position: relative;
+}
+.redLine{
+    display: inline-block;
+    position: relative;
+    bottom: 150px;
+}
+
+.products{
+    align-items: center;
+    margin: 0 auto;
+    width: 91%;
+
+}
+
 .addressOfParty{
     background-color: rgba(233, 150, 122, 0.189);
     height: 40vh;
@@ -138,4 +180,44 @@
     padding: 13px;
     color: white;
     margin: 15px auto 20px;
+}
+
+footer{
+    height: 60vh;
+    width: 91%;
+    background-color: rgba(6, 1, 16, 0.996);
+    align-items: center;
+    margin-top: 50px;
+    margin: 10px auto;
+    text-align: center;
+}
+.footer-up{
+    color: white;
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-up .footer-contact .contact1{
+    display: flex;
+    gap: 15px;
+}
+.hr{
+    width: 70%;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.middle> .middle-icon>img{
+    width: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.footer-down{
+    color: white;
+    display: flex;
+    justify-content: space-around;
 }
